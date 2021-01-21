@@ -40,10 +40,11 @@ http.createServer(function (req, res) {
     }else if(pathname=='/admin'){
         res.writeHead(200, { 'Content-Type': 'text/html;charset="utf-8"' });
         res.end("处理后的业务逻辑");
-    }else{
-        res.writeHead(404, { 'Content-Type': 'text/html;charset="utf-8"' });
-        res.end("页面不存在");
     }
+    // else{
+    //     res.writeHead(404, { 'Content-Type': 'text/html;charset="utf-8"' });
+    //     res.end("页面不存在");
+    // }
 
 }).listen(3000);
 
