@@ -1,0 +1,7 @@
+const:定义常量
+let、var:定义变量
+
+let const的使用  let是一个块作用域
+
+asnyc是"异步"的简写——————可以理解成申明一个异步的function
+await是asnyc await的简写——————用于等待一个异步方法执行完成

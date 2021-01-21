@@ -1,0 +1,12 @@
+完全符合commonjs规范的包目录一般包含如下这些文件：
+1、package.json:包描述文件
+2、bin:用于存放可执行二进制文件的目录
+3、lib:用于存放javascript代码的目录
+4、doc：用于存放文档的目录
+
+npm:世界上最大的代码开发源代码的生态系统，可以通过npm下载各种各样的包
+    这些源代码（包）可以在http://www.npmjs.com 找到。
+
+package.json文件获取：在磁盘找到所需要生成的文件，输入cmd，打开后输入npm init--yes
+                    随即可以得到相应的文件。
+       
